@@ -115,28 +115,51 @@
             <h2 class="text-4xl md:text-5xl font-bold text-center mb-16 scroll-reveal">
                 Keahlian <span class="bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">Saya</span>
             </h2>
-            <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
-                @foreach($skills as $skill)
-                <div class="skill-card bg-gray-900/50 backdrop-blur-sm rounded-xl p-6 border border-gray-800 scroll-reveal hover:border-blue-500/50 transition-all">
-                    <div class="flex items-center justify-between mb-4">
-                        <div class="flex items-center gap-3">
-                            <span class="text-3xl">{{ $skill['icon'] }}</span>
-                            <span class="text-xl font-semibold">{{ $skill['name'] }}</span>
-                        </div>
-                        <span class="text-blue-400 font-bold">{{ $skill['level'] }}%</span>
-                    </div>
-                    <div class="w-full bg-gray-800 rounded-full h-3 overflow-hidden">
-                        <div class="skill-bar h-full bg-gradient-to-r from-blue-500 to-purple-600 rounded-full transition-all duration-1000" 
-                             style="width: 0%" 
-                             data-width="{{ $skill['level'] }}%">
-                        </div>
-                    </div>
+            <div class="max-w-2xl mx-auto grid grid-cols-2 gap-4" style="grid-template-columns: repeat(2, 1fr)">
+
+                <div class="skill-card scroll-reveal flex flex-col items-center justify-center gap-4 bg-gray-900/50 border border-gray-800 rounded-2xl py-8 px-6 hover:border-blue-500/50 transition-all hover:-translate-y-1">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" alt="Laravel" class="w-14 h-14 object-contain">
+                    <span class="text-xs font-bold tracking-widest text-gray-300">LARAVEL</span>
                 </div>
-                @endforeach
+
+                <div class="skill-card scroll-reveal flex flex-col items-center justify-center gap-4 bg-gray-900/50 border border-gray-800 rounded-2xl py-8 px-6 hover:border-blue-500/50 transition-all hover:-translate-y-1">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP" class="w-14 h-14 object-contain">
+                    <span class="text-xs font-bold tracking-widest text-gray-300">PHP</span>
+                </div>
+
+                <div class="skill-card scroll-reveal flex flex-col items-center justify-center gap-4 bg-gray-900/50 border border-gray-800 rounded-2xl py-8 px-6 hover:border-blue-500/50 transition-all hover:-translate-y-1">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS" class="w-14 h-14 object-contain">
+                    <span class="text-xs font-bold tracking-widest text-gray-300">TAILWIND CSS</span>
+                </div>
+
+                <div class="skill-card scroll-reveal flex flex-col items-center justify-center gap-4 bg-gray-900/50 border border-gray-800 rounded-2xl py-8 px-6 hover:border-blue-500/50 transition-all hover:-translate-y-1">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" class="w-14 h-14 object-contain">
+                    <span class="text-xs font-bold tracking-widest text-gray-300">MYSQL</span>
+                </div>
+
+                <div class="skill-card scroll-reveal flex flex-col items-center justify-center gap-4 bg-gray-900/50 border border-gray-800 rounded-2xl py-8 px-6 hover:border-blue-500/50 transition-all hover:-translate-y-1">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" class="w-14 h-14 object-contain">
+                    <span class="text-xs font-bold tracking-widest text-gray-300">GIT</span>
+                </div>
+
+                <div class="skill-card scroll-reveal flex flex-col items-center justify-center gap-4 bg-gray-900/50 border border-gray-800 rounded-2xl py-8 px-6 hover:border-blue-500/50 transition-all hover:-translate-y-1">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" class="w-14 h-14 object-contain">
+                    <span class="text-xs font-bold tracking-widest text-gray-300">JAVASCRIPT</span>
+                </div>
+
+                <div class="skill-card scroll-reveal flex flex-col items-center justify-center gap-4 bg-gray-900/50 border border-gray-800 rounded-2xl py-8 px-6 hover:border-blue-500/50 transition-all hover:-translate-y-1">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" class="w-14 h-14 object-contain">
+                    <span class="text-xs font-bold tracking-widest text-gray-300">HTML</span>
+                </div>
+
+                <div class="skill-card scroll-reveal flex flex-col items-center justify-center gap-4 bg-gray-900/50 border border-gray-800 rounded-2xl py-8 px-6 hover:border-blue-500/50 transition-all hover:-translate-y-1">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" class="w-14 h-14 object-contain">
+                    <span class="text-xs font-bold tracking-widest text-gray-300">CSS</span>
+                </div>
+
             </div>
         </div>
     </section>
-
     <!-- Projects Section -->
     <section id="projects" class="py-20 relative">
         <div class="container mx-auto px-6">

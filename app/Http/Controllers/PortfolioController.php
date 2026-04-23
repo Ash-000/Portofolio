@@ -20,11 +20,11 @@ class PortfolioController extends Controller
         ];
 
         $skills = [
-            ['name' => 'Laravel', 'level' => 50, 'icon' => ''],
-            ['name' => 'PHP', 'level' => 50, 'icon' => ''],
-            ['name' => 'Tailwind CSS', 'level' => 30, 'icon' => ''],
-            ['name' => 'MySQL', 'level' => 45, 'icon' => ''],
-            ['name' => 'Git', 'level' => 35, 'icon' => ''],
+            ['name' => 'Laravel', 'level' => 50],
+            ['name' => 'PHP', 'level' => 50],
+            ['name' => 'Tailwind CSS', 'level' => 30],
+            ['name' => 'MySQL', 'level' => 45],
+            ['name' => 'Git', 'level' => 35],
         ];
 
         return view('portfolio.index', compact('projects', 'skills'));
