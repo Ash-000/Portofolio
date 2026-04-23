@@ -64,7 +64,8 @@
                     </div>
                 </div>
                 <h1 class="text-5xl md:text-7xl font-bold mb-6 opacity-0 animate-fade-in-up animation-delay-200">
-                    Hi, Nama saya Acef Ridwan saya merupakan<span class="bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent"></span>
+                    Hi, Nama saya Acef Ridwan saya merupakan<br>
+                    <span class="bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">Developer</span>
                 </h1>
                 <p class="text-xl md:text-2xl text-gray-400 mb-8 opacity-0 animate-fade-in-up animation-delay-400">
                     Full Stack Developer | UI/UX Lover
