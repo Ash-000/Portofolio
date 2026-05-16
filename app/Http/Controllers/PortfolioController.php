@@ -15,7 +15,7 @@ class PortfolioController extends Controller
                 'description' => 'Full-stack e-commerce solution with payment integration',
                 'image' => '/images/project-1.png',
                 'tags' => ['Laravel', 'Vue.js', 'MySQL'],
-                'link' => 'https://toko-kue-kharismaa.infinityfreeapp.com/?i=1'
+                'link' => 'https://toko-kue-kharisma.onrender.com/'
             ],
         ];
 
